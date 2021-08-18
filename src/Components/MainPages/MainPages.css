@@ -1,0 +1,60 @@
+.main-page-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  overflow-x: hidden;
+  margin: -1rem 1rem ;
+  /* border: 1px solid red; */
+  
+}
+.home-page__imgs {
+  /* margin: 1rem 5rem; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.home-page__img{
+   width: 300px;
+   height: auto;
+   padding: 1rem;
+   max-width: 100%; 
+}
+.home-page__live-data {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5) 100%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../../Assets/showcase1.jpg");
+  background-size: 100% auto;
+  padding: 2rem 1rem;
+}
+.live-data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:#eee;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.data {
+   padding: 1rem 0;
+}
+.home-page__card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.home-page__card > img{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}

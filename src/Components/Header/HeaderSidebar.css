@@ -1,0 +1,39 @@
+.header-drawer-container {
+  font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica,sans-serif;
+}
+.web-drawer {
+  overflow: hidden;
+  position: sticky;
+  z-index: 1;
+  top: 8rem;
+  background-color: rgb(0, 68, 129);
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  /* border: 1px solid rgb(209, 36, 36); */
+}
+.web-drawer--item {
+  /* color: red; */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1em 0;
+  z-index: 1;
+}
+.web-drawer--item:hover {
+  opacity: .3;
+}
+.list-item-text {
+  padding: 0rem;
+  margin: 0px;
+  font-size: 1rem;
+  color: #eee;
+}
+.list-item-text:hover{
+  opacity: .3;
+  
+}

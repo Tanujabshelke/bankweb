@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+.other-link-container {
+  display: flex;
+  flex-direction: column;
+  
+  /* margin: 0rem 1rem; */
+  padding: 2rem; 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  /* border: 1px solid red; */
+}
+.other-link{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  color: #333;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  padding: 1rem 3rem;
+}
+.other-link-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.other-link-header,
+.other-link-subHeader {
+  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgb(4, 68, 128);
+}
+.other-link-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  /* border: 1px solid red; */
+}
+.other-link-img >img{
+  width:350px;
+  max-width: 100%;
+  /* height: auto; */
+  margin: 2rem;
+  padding: .5rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* .other-link-docs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+.other-link-h3 {
+  font-size: 1.1rem;
+  color: #222;
+}
+.other-link-list-item {
+  font-size: 1rem;
+  color: #555;
+  padding: 0.2rem 0;
+} */

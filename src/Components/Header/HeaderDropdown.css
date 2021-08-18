@@ -1,0 +1,11 @@
+.header-dropdown {
+    /* color:"#eee",fontWeight:550 ,fontSize:".905rem",
+    fontFamily: "BentonSansBBVA Medium ,Helvetica Neue,Arial, Helvetica,sans-serif" */
+    position: sticky;
+    z-index: 1;
+}
+.header-dropdown > Button :hover{
+    opacity: .3;
+    /* color:red; */
+    
+}
